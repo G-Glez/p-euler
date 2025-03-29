@@ -18,22 +18,22 @@ In this repository you will find some [Project Euler](https://projecteuler.net) 
 12. [Highly Divisible Triangular Number](#12-highly-divisible-triangular-number)
 13. [Large Sum](#13-large-sum)
 14. [Longest Collatz Sequence](#14-longest-collatz-sequence)
-16. [Power Digit Sum](#16-power-digit-sum)
-18. [Maximum Path Sum I](#18-maximum-path-sum-i)
-20. [Factorial Digit Sum](20-factorial-digit-sum)
-21. [Amicable Numbers](#21-amicable-numbers)
-22. [Names Scores](#22-names-scores)
-23. [Non-Abundant Sums](#23-non-abundant-sums)
-25. [100-digit Fibonacci Number](#25-100-digit-fibonacci-number)
-29. [Distinct Powers](#29-distinct-powers)
-30. [Digit Fifth Powers](#30-digit-fifth-powers)
-34. [Digit Factorials](#34-digit-factorials)
-35. [Circular Primes](#35-circular-primes)
-36. [Double-base Palindromes](#36-double-base-palindromes)
-37. [Truncatable Primes](#37-truncatable-primes)
-40. [Champernowne's Constant](#40-champernownes-constant)
-42. [Coded Triangle Numbers](#42-coded-triangle-numbers)
-45. [Triangular, Pentagonal and Hexagonal](#45-triangular-pentagonal-and-hexagonal)
+15. [Power Digit Sum](#16-power-digit-sum)
+16. [Maximum Path Sum I](#18-maximum-path-sum-i)
+17. [Factorial Digit Sum](20-factorial-digit-sum)
+18. [Amicable Numbers](#21-amicable-numbers)
+19. [Names Scores](#22-names-scores)
+20. [Non-Abundant Sums](#23-non-abundant-sums)
+21. [100-digit Fibonacci Number](#25-100-digit-fibonacci-number)
+22. [Distinct Powers](#29-distinct-powers)
+23. [Digit Fifth Powers](#30-digit-fifth-powers)
+24. [Digit Factorials](#34-digit-factorials)
+25. [Circular Primes](#35-circular-primes)
+26. [Double-base Palindromes](#36-double-base-palindromes)
+27. [Truncatable Primes](#37-truncatable-primes)
+28. [Champernowne's Constant](#40-champernownes-constant)
+29. [Coded Triangle Numbers](#42-coded-triangle-numbers)
+30. [Triangular, Pentagonal and Hexagonal](#45-triangular-pentagonal-and-hexagonal)
 
 ---
 
@@ -46,6 +46,7 @@ Find the sum of all the multiples of **3** or **5** below **1000**.
 | Language | Solutions                  |
 | -------- | -------------------------- |
 | Python   | [v1](./python/p1/p1_v1.py) |
+| Go       | [v1](./go/p1/p1_v1.go)     |
 
 ---
 
@@ -60,6 +61,7 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 | Language | Solutions                  |
 | -------- | -------------------------- |
 | Python   | [v1](./python/p2/p2_v1.py) |
+| Go       | [v1](./go/p2/p2_v1.go)     |
 
 ---
 
@@ -72,6 +74,7 @@ What is the largest prime factor of the number **600851475143**?
 | Language | Solutions                  |
 | -------- | -------------------------- |
 | Python   | [v1](./python/p3/p3_v1.py) |
+| Go       | [v1](./go/p3/p3_v1.go)     |
 
 ---
 
@@ -84,6 +87,7 @@ Find the largest palindrome made from the product of two **3**-digit numbers.
 | Language | Solutions                  |
 | -------- | -------------------------- |
 | Python   | [v1](./python/p4/p4_v1.py) |
+| Go       | [v1](./go/p4/p4_v1.go)     |
 
 ---
 
@@ -96,6 +100,7 @@ What is the smallest positive number that is evenly divisible by all thr numbers
 | Language | Solutions                  |
 | -------- | -------------------------- |
 | Python   | [v1](./python/p5/p5_v1.py) |
+| Go       | [v1](./go/p5/p5_v1.go)     |
 
 ---
 
@@ -116,6 +121,7 @@ Find the difference between the sum of the squares of the first one hundred natu
 | Language | Solutions                  |
 | -------- | -------------------------- |
 | Python   | [v1](./python/p6/p6_v1.py) |
+| Go       | [v1](./go/p6/p6_v1.go)     |
 
 ---
 
@@ -128,6 +134,7 @@ What is the **10001**st prime number?
 | Language | Solutions                  |
 | -------- | -------------------------- |
 | Python   | [v1](./python/p7/p7_v1.py) |
+| Go       | [v1](./go/p7/p7_v1.go)     |
 
 ---
 
