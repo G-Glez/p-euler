@@ -13,4 +13,11 @@ def problem3():
     return largest_prime_number
 
 if __name__ == "__main__":
-    print(problem3())
+    import time
+    
+    start_time = time.time()
+    result = problem3()
+    end_time = time.time()
+
+    print(f"Result: {result}")
+    print(f"Execution time: {end_time - start_time:.6f} seconds")

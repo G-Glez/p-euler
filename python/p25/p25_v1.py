@@ -1,19 +1,16 @@
-def problem2():
-    max_value = 4000000
-
-    res, fib1, fib2 = 0, 0, 1
-
-    while fib2 < max_value:
-        if fib2 % 2 == 0:
-            res += fib2
+def problem25():
+    fib1, fib2, index = 1, 1, 2
+    while len(str(fib2)) != 1000:
+        index += 1
         fib2, fib1 = fib2 + fib1, fib2
-    return res
+        if len(str(fib2)) == 1000:
+            return index
 
 if __name__ == "__main__":
     import time
     
     start_time = time.time()
-    result = problem2()
+    result = problem25()
     end_time = time.time()
 
     print(f"Result: {result}")

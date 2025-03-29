@@ -6,6 +6,36 @@ In this repository you will find some [Project Euler](https://projecteuler.net) 
 
 1. [Multiples of 3 or 5](#1-multiples-of-3-or-5)
 2. [Even Fibonacci Numbers](#2-even-fibonacci-numbers)
+3. [Largest Prime Factor](#3-largest-prime-factor)
+4. [Largest Palindrome Product](#4-largest-palindrome-product)
+5. [Smallest Multiple](#5-smallest-multiple)
+6. [Sum Square Difference](#6-sum-square-difference)
+7. [10 001st Prime](#7-10-001st-prime)
+8. [Largest Product in a Series](#8-largest-product-in-a-series)
+9. [Special Pythagorean Triplet](#9-special-pythagorean-triplet)
+10. [Summation of Primes](#10-summation-of-primes)
+11. [Largest Product in a Grid](#11-largest-product-in-a-grid)
+12. [Highly Divisible Triangular Number](#12-highly-divisible-triangular-number)
+13. [Large Sum](#13-large-sum)
+14. [Longest Collatz Sequence](#14-longest-collatz-sequence)
+16. [Power Digit Sum](#16-power-digit-sum)
+18. [Maximum Path Sum I](#18-maximum-path-sum-i)
+20. [Factorial Digit Sum](20-factorial-digit-sum)
+21. [Amicable Numbers](#21-amicable-numbers)
+22. [Names Scores](#22-names-scores)
+23. [Non-Abundant Sums](#23-non-abundant-sums)
+25. [100-digit Fibonacci Number](#25-100-digit-fibonacci-number)
+29. [Distinct Powers](#29-distinct-powers)
+30. [Digit Fifth Powers](#30-digit-fifth-powers)
+34. [Digit Factorials](#34-digit-factorials)
+35. [Circular Primes](#35-circular-primes)
+36. [Double-base Palindromes](#36-double-base-palindromes)
+37. [Truncatable Primes](#37-truncatable-primes)
+40. [Champernowne's Constant](#40-champernownes-constant)
+42. [Coded Triangle Numbers](#42-coded-triangle-numbers)
+45. [Triangular, Pentagonal and Hexagonal](#45-triangular-pentagonal-and-hexagonal)
+
+---
 
 ## 1. Multiples of 3 or 5
 
@@ -13,14 +43,11 @@ If we list all the natural numbers below **10** that are multiples of **3** or *
 
 Find the sum of all the multiples of **3** or **5** below **1000**.
 
-<details markdown="1">
-<summary>Solutions (click to expand)</summary>
-
 | Language | Solutions                  |
 | -------- | -------------------------- |
 | Python   | [v1](./python/p1/p1_v1.py) |
 
-</details>
+---
 
 ## 2. Even Fibonacci Numbers
 
@@ -34,6 +61,8 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 | -------- | -------------------------- |
 | Python   | [v1](./python/p2/p2_v1.py) |
 
+---
+
 ## 3. Largest Prime Factor:
 
 The prime factors of **13195** are **5**, **7**, **13** and **29**.
@@ -44,8 +73,474 @@ What is the largest prime factor of the number **600851475143**?
 | -------- | -------------------------- |
 | Python   | [v1](./python/p3/p3_v1.py) |
 
+---
+
 ## 4. Largest Palindrome Product
 
 A palindromic number reads the same both ways. The largest palindrome made from the product of two **2**-digit numbers is **9009**$=$**91**$\times$**99**.
 
 Find the largest palindrome made from the product of two **3**-digit numbers.
+
+| Language | Solutions                  |
+| -------- | -------------------------- |
+| Python   | [v1](./python/p4/p4_v1.py) |
+
+---
+
+## 5. Smallest Multiple
+
+**2520** is the smallest number that can be divided by each of the numbers from **1** to **10** without any remainder.
+
+What is the smallest positive number that is evenly divisible by all thr numbers from **1** to **20**?
+
+| Language | Solutions                  |
+| -------- | -------------------------- |
+| Python   | [v1](./python/p5/p5_v1.py) |
+
+---
+
+## 6. Sum Square Difference
+
+The sum of the squares of the first ten natural numbers is,
+
+<div align="center">$1^2+2^2+...+10^2=385$</div>
+
+The square of the sum of the first ten natural numbers is,
+
+<div align="center">$(1+2+...+10)^2=55^2=3025$</div>
+
+Hence, the difference between the sum of the squares of the first ten natural numbers and the square of the sum is **3025**$-$**385**$=$**2640**.
+
+Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
+
+| Language | Solutions                  |
+| -------- | -------------------------- |
+| Python   | [v1](./python/p6/p6_v1.py) |
+
+---
+
+## 7. 10 001st Prime
+
+By listing the first six prime numbers: **2**, **3**, **5**, **7**, **11**, and **13**, we can see that the **6**th prime is **13**.
+
+What is the **10001**st prime number?
+
+| Language | Solutions                  |
+| -------- | -------------------------- |
+| Python   | [v1](./python/p7/p7_v1.py) |
+
+---
+
+## 8. Largest Product in a Series
+
+The four adjacent digits in the **1000**-digit number that have the greatest product are **9**$\times$**9**$\times$**8**$\times$**9**$=$**5832**.
+
+73167176531330624919225119674426574742355349194934  
+96983520312774506326239578318016984801869478851843  
+85861560789112949495459501737958331952853208805511  
+12540698747158523863050715693290963295227443043557  
+66896648950445244523161731856403098711121722383113  
+62229893423380308135336276614282806444486645238749  
+30358907296290491560440772390713810515859307960866  
+70172427121883998797908792274921901699720888093776  
+65727333001053367881220235421809751254540594752243  
+52584907711670556013604839586446706324415722155397  
+53697817977846174064955149290862569321978468622482  
+83972241375657056057490261407972968652414535100474  
+82166370484403199890008895243450658541227588666881  
+16427171479924442928230863465674813919123162824586  
+17866458359124566529476545682848912883142607690042  
+24219022671055626321111109370544217506941658960408  
+07198403850962455444362981230987879927244284909188  
+84580156166097919133875499200524063689912560717606  
+05886116467109405077541002256983155200055935729725  
+71636269561882670428252483600823257530420752963450
+
+Find the thirteen adjacent digits in the **1000**-digit number that have the greatest product. What is the value of this product?
+
+| Language | Solutions                  |
+| -------- | -------------------------- |
+| Python   | [v1](./python/p8/p8_v1.py) |
+
+---
+
+## 9. Special Pythagorean Triplet
+
+A Pythagorean triplet is a set of three natural numbers, $a<b<c$, for which,
+
+$a^2+b^2=c^2$.
+
+For example, $3^2+4^2=9+16=25=5^2$.
+
+There exist exactly one Pythagorean triplet for which $a+b+c=1000$.
+
+Find the product $abc$.
+
+| Language | Solutions                  |
+| -------- | -------------------------- |
+| Python   | [v1](./python/p9/p9_v1.py) |
+
+---
+
+## 10. Summation of Primes
+
+The sum of the primes below **10** is **2**$+$**3**$+$**5**$+$**7**$=$**17**.
+
+Find the sum of the primes below two million.
+
+| Language | Solutions                    |
+| -------- | ---------------------------- |
+| Python   | [v1](./python/p10/p10_v1.py) |
+
+---
+
+## 11 Largest Product in a Grid
+
+In the **20**$\times$**20** grid below, four numbers along a diagonal line have been remarked.
+
+08 02 22 97 38 15 00 40 00 75 04 05 07 78 52 12 50 77 91 08  
+49 49 99 40 17 81 18 57 60 87 17 40 98 43 69 48 04 56 62 00  
+81 49 31 73 55 79 14 29 93 71 40 67 53 88 30 03 49 13 36 65  
+52 70 95 23 04 60 11 42 69 24 68 56 01 32 56 71 37 02 36 91  
+22 31 16 71 51 67 63 89 41 92 36 54 22 40 40 28 66 33 13 80  
+24 47 32 60 99 03 45 02 44 75 33 53 78 36 84 20 35 17 12 50  
+32 98 81 28 64 23 67 10 **_26_** 38 40 67 59 54 70 66 18 38 64 70  
+67 26 20 68 02 62 12 20 95 **_63_** 94 39 63 08 40 91 66 49 94 21  
+24 55 58 05 66 73 99 26 97 17 **_78_** 78 96 83 14 88 34 89 63 72  
+21 36 23 09 75 00 76 44 20 45 35 **_14_** 00 61 33 97 34 31 33 95  
+78 17 53 28 22 75 31 67 15 94 03 80 04 62 16 14 09 53 56 92  
+16 39 05 42 96 35 31 47 55 58 88 24 00 17 54 24 36 29 85 57  
+86 56 00 48 35 71 89 07 05 44 44 37 44 60 21 58 51 54 17 58  
+19 80 81 68 05 94 47 69 28 73 92 13 86 52 17 77 04 89 55 40  
+04 52 08 83 97 35 99 16 07 97 57 32 16 26 26 79 33 27 98 66  
+88 36 68 87 57 62 20 72 03 46 33 67 46 55 12 32 63 93 53 69  
+04 42 16 73 38 25 39 11 24 94 72 18 08 46 29 32 40 62 76 36  
+20 69 36 41 72 30 23 88 34 62 99 69 82 67 59 85 74 04 36 16  
+20 73 35 29 78 31 90 01 74 31 49 71 48 86 81 16 23 57 05 54  
+01 70 54 71 83 51 54 69 16 92 33 48 61 43 52 01 89 19 67 48
+
+The product of these numbers is **26**$\times$**63**$\times$**78**$\times$**14**$=$**1788696**
+
+What is the greatest product for adjacent numbers in the same direction (up, down, left, right or diagonally) in the **20**$\times$**20** grid?
+
+| Language | Solutions                    |
+| -------- | ---------------------------- |
+| Python   | [v1](./python/p11/p11_v1.py) |
+
+---
+
+## 12. Highly Divisible Triangular Number
+
+The sequence of triangle numbers is generated by adding the natural numbers. So, the **7**th triangle number would be **1** $+$ **2** $+$ **3** $+$ **4** $+$ **5** $+$ **6** $+$ **7** $=$ **28**. The first ten terms would be:
+
+**1**, **3**, **6**, **10**, **15**, **21**, **28**, **36**, **45**, **55**, ...
+
+Let us list the factors of the first seven triangle numbers:
+
+**1**: 1
+**3**: 1, 3
+**6**: 1, 2, 3, 6
+**10**: 1, 2, 5, 10
+**15**: 1, 3, 5, 15
+**21**: 1, 3, 7, 21
+**28**: 1, 2, 4, 7, 14, 28
+
+We can see that **28** is the first triangle number to have over five divisors.
+
+What is the value of the first triangle number to have over five hundred divisors?
+
+| Language | Solutions                    |
+| -------- | ---------------------------- |
+| Python   | [v1](./python/p12/p12_v1.py) |
+
+---
+
+## 13 Large Sum
+
+Work out the first ten digits of the sum of the following one-hundred **50**-digit numbers.
+
+37107287533902102798797998220837590246510135740250463769376774900097126481248969700780504170182605387432498619952474105947423330951305812372661730962991942213363574161572522430563301811072406154908250230675882075393461711719803104210475137780632466768926167069662363382013637841838368417873436172675728112879812849979408065481931592621691275889832738442742289174325203219235894228767964876702721893184745144573600130643909116721685684458871160315327670386486105843025439939619828917593665686757934951621764571418565606295021572231965867550793241933316490635246274190492910143244581382266334794475817892575867718337217661963751590579239728245598838407582035653253593990084026335689488301894586282278288018119938482628201427819413994056758715117009439035398664372827112653829987240784473053190104293586865155060062958648615320752733719591914205172558297169388870771546649911559348760353292171497005693854370070576826684624621495650076471787294438377604532826541087568284431911906346940378552177792951453612327252500029607107508256381565671088525835072145876576172410976447339110607218265236877223636045174237069058518606604482076212098132878607339694128114266041808683061932846081119106155694051268969251934325451728388641918047049293215058642563049483624672216484350762017279180399446930047329563406911573244438690812579451408905770622942919710792820955037687525678773091862540744969844508330393682126183363848253301546861961243487676812975343759465158038628759287849020152168555482871720121925776695478182833757993103614740356856449095527097864797581167263201004368978425535399209318374414978068609844840309812907779179908821879532736447567559084803087086987551392711854517078544161852424320693150332599594068957565367821070749269665376763262354472106979395067965269474259770973916669376304263398708541052684708299085211399427365734116182760315001271653786073615010808570091499395125570281987460043753582903531743471732693212357815498262974255273730794953759765105305946966067683156574377167401875275889028025717332296191766687138199318110487701902712526768027607800301367868099252546340106163286652636270218540497705585629946580636237993140746255962240744869082311749777923654662572469233228109171419143028819710328859780666976089293863828502533340334413065578016127815921815005561868836468420090470230530811728164304876237919698424872550366387845831148769693215490281042402013833512446218144177347063783299490636259666498587618221225225512486764533677201869716985443124195724099139590089523100588229554825530026352078153229679624948164195386821877476085327132285723110424803456124867697064507995236377742425354112916842768655389262050249103265729672370191327572567528565324825826546309220705859652229798860272258331913126375147341994889534765745501184957014548792889848568277260777137214037988797153829820378303147352772158034814451349137322665138134829543829199918180278916522431027392251122869539409579530664052326325380441000596549391598795936352974615218550237130764225512118369380358038858490341698116222072977186158236678424689157993532961922624679571944012690438771072750481023908955235974572318970677254791506150550495392297953090112996751986188088225875314529584099251203829009407770775672113067397083047244838165338735023408456470580773088295917476714036319800818712901187549131054712658197623331044818386269515456334926366572897563400500428462801835170705278318394258821455212272512503275512160354698120058176216521282765275169129689778932238195734329339946437501907836945765883352399886755061649651847751807381688378610915273579297013376217784275219262340194239963916804498399317331273132924185707147349566916674687634660915035914677504995186714302352196288948901024233251169136196266227326746080059154747183079839286853520694694454072476841822524674417161514036427982273348055556214818971426179103425986472045168939894221798260880768528778364618279934631376775430780936333301898264209010848802521674670883215120185883543223812876952786713296124747824645386369930090493103636197638780396218407357239979422340623539380833965132740801111666627891981488087797941876876144230030984490851411606618262936828367647447792391803351109890697907148578694408955299065364044742557608365997664579509666024396409905389607120198219976047599490197230297649139826800329731560371200413779037855660850892521673093931987275027546890690370753941304265231501194809377245048795150954100921645863754710598436791786391670211874924319957006419179697775990283006991536871371193661495281130587638027841075444973307840789923115535562561142322423255033685442488917353448899115014406480203690680639606723221932041495354150312888033953605329934036800697771065056663195481234880673210146739058568557934581403627822703280826165707739483275922328459417065250945123252306082291880205877731971983945018088807242966198081119777158542502016545090413245809786882778948721859617721078384350691861554356628840622574736922845095162084960398013400172393067166682355524525280460972253503534226472524250874054075591789781264330331690
+
+| Language | Solutions                    |
+| -------- | ---------------------------- |
+| Python   | [v1](./python/p13/p13_v1.py) |
+
+---
+
+## 14 Longest Collatz Sequence
+
+The following iterative sequence is defined for the set of positive integers:
+
+$n\rightarrow n/2$ (n is even)
+$n\rightarrow 3n+1$ (n is odd)
+
+Using the rule above and starting with **13**, we generate the following sequence:
+
+$13\rightarrow 40\rightarrow 20\rightarrow 10\rightarrow 5\rightarrow 16\rightarrow 8\rightarrow 4\rightarrow 2\rightarrow 1$
+
+It can be seen that this sequence (starting at **13** and finishing at **1**) contains **10** terms. Although it has not been proved yet (Collatz Problem), it is thought that all starting numbers finish at **1**.
+
+Which starting number, under one million, produces the longest chain?
+
+**NOTE**: Once the chain starts the terms are allowed to go above one million.
+
+| Language | Solutions                    |
+| -------- | ---------------------------- |
+| Python   | [v1](./python/p14/p14_v1.py) |
+
+---
+
+## 16 Power Digit Sum
+
+$2^{15} = 32768$ and the sum of its digits is $3+2+7+6+8=26$.
+
+What is the sum of the digits of the number $2^{1000}$?
+
+| Language | Solutions                    |
+| -------- | ---------------------------- |
+| Python   | [v1](./python/p16/p16_v1.py) |
+
+---
+
+## 18 Maximum Path Sum I
+
+By starting at the top of the triangle below, and moving to adjacent numbers on the row below, the maximum total from top to bottom is **23**.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**3**  
+&nbsp;&nbsp;&nbsp;&nbsp;**7**&nbsp;&nbsp;&nbsp;4  
+&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;**4**&nbsp;&nbsp;&nbsp;6  
+8&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;**9**&nbsp;&nbsp;&nbsp;3
+
+That is, $3+7+4+9=23$.
+
+Find the maximum total from top to bottom of the triangle below:
+
+(in code)
+
+**NOTE**: As there are only **16384** routes, it is possible to solve this problem by trying every route. However, Problem 67, is the same challenge with a triangle containing one-hundred rows; it cannot be solved by brute force, and requires a clever method! ;o.
+
+| Language | Solutions                    |
+| -------- | ---------------------------- |
+| Python   | [v1](./python/p18/p18_v1.py) |
+
+---
+
+## 20 Factorial Digit Sum
+
+$n!$ means $n\times (n-1)\times ...3\times 2\times 1$.
+
+For example, $10!=10\times 9\times ... \times 3\times\ 2\times 1=3628800$, and the sum of the digits in the number $10!$ is $3+6+2+8+8+0+0=27$
+
+Find the sum of the digits in the number $100!$
+
+| Language | Solutions                    |
+| -------- | ---------------------------- |
+| Python   | [v1](./python/p20/p20_v1.py) |
+
+---
+
+## 21 Amicable Numbers
+
+Let $d(n)$ be defined as the sum of the proper divisors of $n$ (numbers less than $n$ which divide evenly into $n$).
+
+For example, thr proper divisors of $220$ are $1,2,4,5,10,11,20,22,44,55$ and $110$, therefore $d(220) = 284$. The proper divisors of $284$ are $1,2,4,71,142$; so $d(284)=220$.
+
+Evaluate the sum of all the amicable numbers under 10000
+
+| Language | Solutions                    |
+| -------- | ---------------------------- |
+| Python   | [v1](./python/p21/p21_v1.py) |
+
+---
+
+## 22 Names Scores
+
+Using names.txt (right click and 'Save Link/Target As...'), a 46K text file containing over five-thousand first names, begin by sorting it into alphabetical order. Then working out the alphabetical value for each name, multiply this value by its alphabetical position in the list to obtain a ame score.
+
+For example, when the list is sorted into alphabetical order, COLIN, which is worth $3+15+12+9+14=53$, is the 938th name in the list. So, COLIN would obtain a score of $938\times 53=49714$.
+
+What is the total of all the name scores in the file?
+
+| Language | Solutions                    |
+| -------- | ---------------------------- |
+| Python   | [v1](./python/p22/p22_v1.py) |
+
+---
+
+## 23 Non-Abundant Sums
+
+A perfect number is a number for which the sum of its proper divisors is exactly equal to the number. For example, the sum of the proper divisors of $28$ would be $1+2+4+7+14=28$, which means that $28$ us a perfect number.
+
+A number $n$ is called deficient if the sum of its proper divisors is less than $n$, and it is called abundant if the sum of this um exceeds $n$.
+
+As $12$ is the smallest abundant number, $1+2+3+4+6=16$, the smallest number that can be written as the sum of two abundant numbers is 24. By mathematical analysis, it can be shown that all integers greater than 28123 can be written as the sum of two abundant numbers. However, this upper limit cannot be reduced any further by analysis even thought it is known that the greatest number that cannot be expressed as the sum of two abundant numbers is less than this limit.
+
+Find the sum of all the positive integers which cannot be written as the sum of two abundant numbers.
+
+| Language | Solutions                    |
+| -------- | ---------------------------- |
+| Python   | [v1](./python/p23/p23_v1.py) |
+
+---
+
+## 25 100-digit Fibonacci Number
+
+The Fibonacci sequence is defined by the recurrence relation $F_n = F_{n-1} + F_{n-2}$ where $F_1=1$ and $F_2=1$.
+
+Hence, the first **12** term will be:
+
+$1, 1, 2, 3, 5, 8, 12, 21, 34, 55, 89, 144$
+
+The **12**th term, $F_12$, is the first tem to contain three digits.
+
+What is the index of the first term in the Fibonacci sequence to contain **1000** digits?
+
+| Language | Solutions                    |
+| -------- | ---------------------------- |
+| Python   | [v1](./python/p25/p25_v1.py) |
+
+---
+
+## 29 Distinct Powers
+
+Consider all integer combinations of $a^b$ for $2 \le 5$ and $2 \le 5$:
+
+$2^2, ..., 2^5, ..., 5^2, ..., 5^5$
+
+If they are then placed in numerical order, with any repeats removed, we get 15 distinct terms.
+
+How many distinct terms are in the sequence generated by $a^b$ for $2\le 100$ and $2\le b\le 100$
+
+| Language | Solutions                    |
+| -------- | ---------------------------- |
+| Python   | [v1](./python/p29/p29_v1.py) |
+
+---
+
+## 30 Digit Fifth Powers
+
+Surprisingly there are only three numbers that can be written as te sum of fourth powers of their digits:
+
+$1634=1^4+6^4+3^4+4^4$
+$8208=8^4+2^4+0^4+8^4$
+$9474=9^4+4^4+7^4+4^4$
+
+As $1=1^4$ is not a sum it is not included.
+
+The sum of these numbers is $1634+8208+9474=19316$.
+
+Find the sum of all the numbers that can be written as the sum of fifth powers of their digits.
+
+| Language | Solutions                    |
+| -------- | ---------------------------- |
+| Python   | [v1](./python/p30/p30_v1.py) |
+
+---
+
+## 34 Digit Factorials
+
+$145$ is a curious number, as $1!+4!+5!=1+24+120=145$.
+
+Find the sum of all numbers which are equal to the sum of the factorial of their digits.
+
+**Note**: as $1!$ and $2!$ are not sums they are not included.
+
+**HINT**: Some products can be obtained in more than one way so be sure to only include it once in your sum.
+
+| Language | Solutions                    |
+| -------- | ---------------------------- |
+| Python   | [v1](./python/p34/p34_v1.py) |
+
+---
+
+## 35 Circular Primes
+
+The number, 197, is called a circular prime because all rotations of the digits: 197, 971, and 719, are themselves prime.
+
+There are thirteen such primes below 100: 2, 3, 5, 7, 11, 13, 17, 31, 37, 71, 73, 79 and 97.
+
+How many circular primes are there below one million?
+
+| Language | Solutions                    |
+| -------- | ---------------------------- |
+| Python   | [v1](./python/p35/p35_v1.py) |
+
+---
+
+## 36 Double-base Palindromes
+
+The decimal number, $585=100100100_2$(binary) is palindromic in both bases.
+
+Find the sum of all numbers, less than one million, which are palindromic in base **10** and base **2**.
+
+(Please note that the palindromic number, in either base, may not include leading zeros.)
+
+| Language | Solutions                    |
+| -------- | ---------------------------- |
+| Python   | [v1](./python/p36/p36_v1.py) |
+
+---
+
+## 37 Truncatable Primes
+
+The number 3797 has an interesting property. Being prime itself, it is possible to continuously remove digits from left to right, and remain prime at each stage: 3797, 797, 97 and 7. Similarly, we can work from right to left: 3797, 379, 37, and 3.
+
+Find the sum of the only eleven primer that are both truncatable from left to right and right to left.
+
+**NOTE**: 2, 3, 5 and 7 are not considered to be truncatable primes.
+
+| Language | Solutions                    |
+| -------- | ---------------------------- |
+| Python   | [v1](./python/p37/p37_v1.py) |
+
+---
+
+## 40 Champernowne's Constant
+
+An irrational decimal fraction is created by concatenating the positive integers:
+
+0.123456789101112131415161718192021...
+
+It can be seen that the **12**th digit of the fractional part is 1.
+
+If $d_n$ represents the $n^{th}$ digit of the fractional part, find the value of the following expression.
+
+$d_1\times d_{10}\times d_{100}\times d_{1000}\times d_{10000}\times d_{100000}\times d_{1000000}$
+
+| Language | Solutions                    |
+| -------- | ---------------------------- |
+| Python   | [v1](./python/p40/p40_v1.py) |
+
+---
+
+## 42 Coded Triangle Numbers
+
+The $n^{th}$ term of the sequence of triangle numbers is given by, $t_n = n(n+1)/2$; so the first ten triangle numbers are:
+
+1,3,6,10,15,21,28,36,45,55,...
+
+By converting each letter in a word to a number corresponding to its alphabetical position and adding these values we form a word value. For example, the word value for SKY is $19+11+25=55=t{10}$. If the word value is a triangle number then we shall call the word a triangle word.
+
+Using words.txt, a 16K text file containing nearly two-thousand common English words, how many are triangle words.
+
+| Language | Solutions                    |
+| -------- | ---------------------------- |
+| Python   | [v1](./python/p42/p42_v1.py) |
+
+---
+
+## 45 Triangular, Pentagonal and Hexagonal
+
+Triangle, pentagonal, and hexagonal numbers are generated by the following formulae:
+
+Triangle: $T_n=n(n+1)/2$
+Pentagonal: $P_n=n(3n-1)/2$
+Hexagonal: $H_n=n(2n-1)$
+
+It can be verified that $T_{285}=P_{165}=H_{143}=40755$.
+
+Find the next triangle number that is also pentagonal and hexagonal
+
+| Language | Solutions                    |
+| -------- | ---------------------------- |
+| Python   | [v1](./python/p45/p45_v1.py) |
